@@ -1,0 +1,12 @@
+[package]
+name = "tante_emma"
+version = "0.1.0"
+authors = ["Daniel Koch <daniel.koch@vergleich.org>"]
+
+[dependencies]
+conrod = "*"
+
+
+[dependencies.mysql]
+version = "*"
+features = ["ssl", "rustc-serialize"]
