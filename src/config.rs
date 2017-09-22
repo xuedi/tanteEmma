@@ -27,6 +27,9 @@ pub fn load() -> Config
     // should be loaded from config file (toml?)
     config.app_name = "TanteEmma";
     config.connection.host = "127.0.0.1";
+    config.connection.user = "test";
+    config.connection.pass = "test";
+    config.connection.port = 3306;
 
     // return data
     return config;
