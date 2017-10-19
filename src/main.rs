@@ -15,7 +15,7 @@ mod config;
 fn main()
 {
 
-    let config = config::load();
+    let config = config::load("config.toml");
 
     mysql::connect(); // add config here
 
